@@ -33,20 +33,21 @@
     <div class="container">
         <h1>Evens or Odds</h1>
         <div>
-            <button type="button" class="btn btn-info btn-lg">Play</button>
+            <button id="btnPlay" type="button" class="btn btn-info btn-lg">Play</button>
         </div>
-        
         <div class="player">
-            <p>Player 1</p>
-            <img class="img" src="images/1L.png">
-        </div>
+            <p><span id="evens"></span></p>
 
+            <img id="finger" class="img" src="images/1L.png">
+        </div>
         <div class="player">
-            <p>Player 2</p>
+            <p><span id="odds"></span></p>
+
             <img class="img" src="images/1R.png">
         </div>
+
     </div>
-    <!---script src="/js/myscript.js"></script--->
+    <script src="/js/myscript.js"></script>
 </body>
 
 </html>
