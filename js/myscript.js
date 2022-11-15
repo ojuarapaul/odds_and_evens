@@ -16,8 +16,8 @@ function evenOdds() {
         randomP1 = randomP1 + 1;
         var img = document.createElement("img");
         img.src = ("images/" + randomP1 + "L.png");
-        var src = document.getElementById("header");
-        img.style.width = '80%';
+        var src = document.getElementById("leftHand");
+        img.style.width = '60%';
         img.style.height = 'auto';
         src.appendChild(img);
 
@@ -25,8 +25,8 @@ function evenOdds() {
         randomP2 = randomP2 + 1;
         var img = document.createElement("img");
         img.src = ("images/" + randomP2 + "R.png");
-        var src = document.getElementById("header2");
-        img.style.width = '80%';
+        var src = document.getElementById("rightHand");
+        img.style.width = '60%';
         img.style.height = 'auto';
         src.appendChild(img);
 

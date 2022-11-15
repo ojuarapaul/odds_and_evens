@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: rgb(202, 244, 202);
   margin:auto;
   text-align: center;
   justify-content: center;
@@ -16,10 +16,11 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  margin: auto;
   text-align: center;
   font-family:'Raleway', sans-serif;
   padding: 4rem;
+  padding-bottom:1rem;
   font-size: 2.8rem;
   font-weight: 400;
   color: var(--main-fontcolor);
@@ -38,11 +39,11 @@ p {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  /*padding: 2rem;*/
   padding-right: 0rem;
   padding-left:0rem;
-  padding-top: 4rem;
-  padding-bottom: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
   margin: auto;
   font-size: 2rem;
   width: 150px;
@@ -50,10 +51,13 @@ p {
 }
 
 .img{
-  width: 40%;
+  width: 30%;
 }
 
-
+.btn1 {
+  padding-top: 2rem;
+  padding-bottom:2rem;
+}
 /* FROM NOW ON ONLY FOR REFERENCE. DELETE WHEN DONE.
 
 /* 
