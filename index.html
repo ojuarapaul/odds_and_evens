@@ -30,10 +30,11 @@
 </style>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand mx-left" href="#"><img src="images/logo-test3_800px.png" alt="" width="40"
-                height="40" class="d-inline-block align-text-middle" href="index.html"></a>
+                    height="40" class="d-inline-block align-text-middle" href="index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,20 +55,29 @@
         </div>
     </nav>
     <div class="container">
-            <h1>Evens or Odds</h1>
-            <div>
-                <button id="btnPlay" type="button" class="btn btn-info btn-lg">Play</button>
-            </div>
-            <div class="player">
-                <p><span id="evens"></span></p>
+        <h1>Evens or Odds</h1>
 
-                <img id="finger" class="img" src="images/1L.png">
-            </div>
-            <div class="player">
-                <p><span id="odds"></span></p>
+        <div class="player">
+            <p><span id="evens"></span></p>
+            <p>(Evens)</p>
+            <img class="img"><span id="header"></span></img>
+        </div>
+        <div class="player">
+            <h2><span id="resultFinal"></span></h2>
+            <h3><span id="theWinnerIs"></span></h3>
+        </div>
+        <div class="player">
+            <p><span id="odds"></span></p>
+            <p>(Odds)</p>
+            <img class="img"><span id="header2"></span></img>
 
-                <img class="img" src="images/1R.png">
-            </div>
+        </div>
+        <div>
+
+            <button onclick="call();" type="button" class="btn btn-info btn-lg">Play / Refresh</button>
+            <!--button id="btnPlay" type="button" class="btn btn-info btn-lg">Play</button-->
+
+        </div>
     </div>
     <script src="/js/myscript.js"></script>
 </body>
