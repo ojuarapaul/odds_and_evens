@@ -1,7 +1,7 @@
-
-
-
-
+//check if touchevent is available
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+//bind touch event to the button with id = myFunction2 and call myFunction2 function
+document.getElementById('btn2').addEventListener(touchEvent, call);
 function evenOdds() {
 
     var evens = prompt("Input EVENS player's name");
@@ -35,32 +35,34 @@ function evenOdds() {
 
         if (result % 2 === 0) {
             var winner = evens + " Won!";
-            document.getElementById("theWinnerIs").innerHTML = winner;  
-            
+            document.getElementById("theWinnerIs").innerHTML = winner;
+
         } else {
             var winner = odds + " Won!";
-            document.getElementById("theWinnerIs").innerHTML = winner;  
-            
+            document.getElementById("theWinnerIs").innerHTML = winner;
+
         }
 
     }
 
 }
 
+
+
 var callOne = true;
 
 function one() {
-   evenOdds();
+    evenOdds();
 }
 
 function two() {
     location.reload();
 }
 
-function call(){
-   if(callOne) one();
-  else two();
-  callOne = !callOne;
+function call() {
+    if (callOne) one();
+    else two();
+    callOne = !callOne;
 }
 
 
