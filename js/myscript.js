@@ -40,7 +40,7 @@ function evenOdds() {
         // add the two random numbers found
         var result = randomP1 + randomP2;
         document.getElementById("resultFinal").innerHTML = result;
-        // find out if the result it's an even or odd number and declare who wins
+        // find out if the result it's an even or odd number and declare who wins.
         if (result % 2 === 0) {
             var winner = evens + " WON!";
             var winner = winner.toUpperCase();
