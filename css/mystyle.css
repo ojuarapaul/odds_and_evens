@@ -26,6 +26,20 @@ h1 {
   color: var(--main-fontcolor);
 }
 
+h3 {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+  padding-left:0;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  margin: auto;
+  font-size: 1rem;
+  width: 600px;
+  height: 150px;
+}
+
 p {
   align-items: center;
   font-family:'Raleway', sans-serif;
@@ -35,6 +49,16 @@ p {
   color: var(--main-fontcolor);
 }
 
+.pSmall {
+  align-items: center;
+  font-family:'Raleway', sans-serif;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 350;
+  color: var(--main-fontcolor);
+  padding-bottom: 2rem;
+}
+
 .player {
   display: inline-block;
   align-items: center;
@@ -42,7 +66,7 @@ p {
   /*padding: 2rem;*/
   padding-right: 0rem;
   padding-left:0rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 8rem;
   margin: auto;
   font-size: 2rem;
@@ -55,6 +79,6 @@ p {
 }
 
 .btn1 {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom:2rem;
 }

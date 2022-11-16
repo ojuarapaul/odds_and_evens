@@ -5,8 +5,10 @@ document.getElementById('btn2').addEventListener(touchEvent, call);
 function evenOdds() {
 
     var evens = prompt("Input EVENS player's name");
+    var evens = evens.toUpperCase();
     document.getElementById("evens").innerHTML = evens;
     var odds = prompt("Input ODDS player's name");
+    var odds = odds.toUpperCase();
     document.getElementById("odds").innerHTML = odds;
     const next = runGame()
     return next;
@@ -34,18 +36,20 @@ function evenOdds() {
         document.getElementById("resultFinal").innerHTML = result;
 
         if (result % 2 === 0) {
-            var winner = evens + " Won!";
+            var winner = evens + " WON!";
+            var winner = winner.toUpperCase();
             document.getElementById("theWinnerIs").innerHTML = winner;
 
         } else {
-            var winner = odds + " Won!";
+            var winner = odds + " WON!";
+            var winner = winner.toUpperCase();
             document.getElementById("theWinnerIs").innerHTML = winner;
 
         }
 
     }
 
-}
+} 
 
 
 
