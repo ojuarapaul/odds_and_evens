@@ -57,9 +57,9 @@
         <div class="btn1">
             <button id="btn2" type="button" class="btn btn-info btn-lg">Play / Refresh</button>
             <script>
-                //check if touchevent is available
+                //check if touchevent is available (to work with iPhone touchscreen)
                 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
-                //bind touch event to the button with id = myFunction2 and call myFunction2 function
+                //bind touch event to the button with id = btn2 and call 'call()' function
                 document.getElementById('btn2').addEventListener(touchEvent, call);
                 var callOne = true;
                 function one() {
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    <script src="js/myscript.js"></script>
+    <script src="js/myscript.js"></script> <!--pay attention to the path! /js/myscript.js DOES NOT WORK ONLINE-->
 </body>
 
 </html>
