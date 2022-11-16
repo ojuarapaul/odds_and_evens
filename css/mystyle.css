@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(202, 244, 202);
+  background-color: rgb(244, 202, 202);
+  /*background-color: rgb(202, 244, 202);*/
   margin:auto;
   text-align: center;
   justify-content: center;
