@@ -99,6 +99,17 @@ p {
   padding-bottom: 0rem;
 }
 
+.aSmall {
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 1rem;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  font-weight: 350;
+  color: var(--main-fontcolor);
+  padding-bottom: 0rem;
+}
+
 .player {
   display: inline-block;
   align-items: center;
