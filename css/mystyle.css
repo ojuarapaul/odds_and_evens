@@ -34,12 +34,28 @@ h3 {
   justify-content: center;
   padding-right: 0;
   padding-left:0;
-  padding-top: 2rem;
-  padding-bottom: 8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
   margin: auto;
   font-size: 1rem;
   width: 600px;
   height: 150px;
+}
+
+h4 {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+  padding-left:0;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin: auto;
+  font-size: 0.8rem;
+  font-weight: 200;
+  width: 600px;
+  height: 150px;
+  color: var(--main-fontcolor);
 }
 
 p {
@@ -51,14 +67,24 @@ p {
   color: var(--main-fontcolor);
 }
 
+.navbar-toggler {
+  background-color: rgb(146, 106, 173);
+  border-width: 2px;
+  border-color: rgb(105, 24, 159);
+}
+.icon-bar {
+  background-color:#333;
+}
+
 .pSmall {
   align-items: center;
   font-family:'Raleway', sans-serif;
-  margin: auto;
+  margin: 1rem;
+  margin-top:0.2rem;
   font-size: 1rem;
   font-weight: 350;
   color: var(--main-fontcolor);
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 
 .player {
@@ -69,11 +95,11 @@ p {
   padding-right: 0rem;
   padding-left:0rem;
   padding-top: 2rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
   margin: auto;
   font-size: 2rem;
   width: 150px;
-  height: 150px;
+  height: 0px;
 }
 
 .img{
@@ -82,5 +108,15 @@ p {
 
 .btn1 {
   padding-top: 1.5rem;
-  padding-bottom:2rem;
+  padding-bottom:1rem;
+}
+
+.my-pic {
+  padding-top:2rem;
+  width:50%;
+}
+
+.my-pic-main {
+  padding-top:2rem;
+  width:30%;
 }

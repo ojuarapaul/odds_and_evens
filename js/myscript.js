@@ -1,6 +1,14 @@
 
 function evenOdds() {
 
+    var odds = prompt("Optional: type ODDS player's name");
+    if (odds == "") {
+        odds = "ODDS";
+    } else {
+        var odds = odds.toUpperCase();
+        document.getElementById("odds").innerHTML = odds;
+    }
+
     var evens = prompt("Optional: type EVENS player's name");
     if (evens == "") {
         evens = "EVENS";
@@ -9,13 +17,6 @@ function evenOdds() {
         document.getElementById("evens").innerHTML = evens;
     }
 
-    var odds = prompt("Optional: type ODDS player's name");
-    if (odds == "") {
-        odds = "ODDS";
-    } else {
-        var odds = odds.toUpperCase();
-        document.getElementById("odds").innerHTML = odds;
-    }
     const next = runGame()
     return next;
 
