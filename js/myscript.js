@@ -1,7 +1,7 @@
 
 function evenOdds() {
 
-    var odds = prompt("Optional: type ODDS player's name");
+    var odds = prompt("Type ODDS player's name or simply hit OK");
     if (odds == "") {
         odds = "ODDS";
     } else {
@@ -9,7 +9,7 @@ function evenOdds() {
         document.getElementById("odds").innerHTML = odds;
     }
 
-    var evens = prompt("Optional: type EVENS player's name");
+    var evens = prompt("Type EVENS player's name or simply hit OK");
     if (evens == "") {
         evens = "EVENS";
     } else {
