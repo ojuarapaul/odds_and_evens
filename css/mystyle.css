@@ -77,12 +77,12 @@ p {
 }
 
 .icon1 {
-  display:inline;
+  display: inline;
   align-items: center;
   font-family: 'Raleway', sans-serif;
   margin: auto;
-  padding-top:2px;
-  padding-bottom:6px;
+  padding-top: 2px;
+  padding-bottom: 6px;
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--main-fontcolor);
@@ -136,10 +136,20 @@ p {
   animation-duration: 5s;
   animation-delay: -2s;
 }
+
 /* Standard syntax */
-  @keyframes example {
-      0% {background-color:rgb(146, 106, 173); left:4500px; top:0px;}
-      100% {background-color:rgb(146, 106, 173); left:0px; top:0px;}
+@keyframes example {
+  0% {
+    background-color: rgb(146, 106, 173);
+    left: 4500px;
+    top: 0px;
+  }
+
+  100% {
+    background-color: rgb(146, 106, 173);
+    left: 0px;
+    top: 0px;
+  }
 }
 
 .btn1 {
@@ -147,22 +157,14 @@ p {
   padding-bottom: 1rem;
 }
 
-/*possible solution class for stretching images in ios
-.idv {
-  align-items: start;
-}
-
-.idv img {
-  width: 100%;
-}
-add class idv to images if it is stretching to 100% */
-
 .my-pic {
   padding-top: 2rem;
   width: 40%;
-}
 
-.my-pic-main {
-  padding-top: 2rem;
-  width: 40%;
-}
+  /* When the browser is at least 450px and below */
+  @media screen and (max-width: 450px) {
+    .my-pic {
+      padding-top: 3rem;
+      width: 60%;
+    }
+  }
