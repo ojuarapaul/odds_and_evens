@@ -3,7 +3,7 @@ function evenOdds() {
 
     var evens = prompt("Digite o nome do jogador que escolheu PARES ou click OK");
     if (evens == "") {
-        evens = "PARES";
+        evens = "PAR";
     } else {
         var evens = evens.toUpperCase();
         document.getElementById("evens").innerHTML = evens;
@@ -11,7 +11,7 @@ function evenOdds() {
 
     var odds = prompt("Digite o nome do jogador que escolheu ÍMPARES ou click OK");
     if (odds == "") {
-        odds = "ÍMPARES";
+        odds = "ÍMPAR";
     } else {
         var odds = odds.toUpperCase();
         document.getElementById("odds").innerHTML = odds;
