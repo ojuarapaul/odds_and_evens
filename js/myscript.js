@@ -1,17 +1,19 @@
 
 function evenOdds() {
-
-    var odds = prompt("Type ODDS player's name or simply hit OK");
+    var oddsChoice = "Player 1";
+    var odds = prompt("Type ODDS player's name (Player 1) or simply hit OK");
     if (odds == "") {
         odds = "ODDS";
+        document.getElementById("oddsChoice").innerHTML = oddsChoice;
     } else {
         var odds = odds.toUpperCase();
         document.getElementById("odds").innerHTML = odds;
     }
-
-    var evens = prompt("Type EVENS player's name or simply hit OK");
+    var evensChoice = "Player 2";
+    var evens = prompt("Type EVENS player's name (Player 2) or simply hit OK");
     if (evens == "") {
         evens = "EVENS";
+        document.getElementById("evensChoice").innerHTML = evensChoice;
     } else {
         var evens = evens.toUpperCase();
         document.getElementById("evens").innerHTML = evens;
@@ -43,12 +45,12 @@ function evenOdds() {
         document.getElementById("resultFinal").innerHTML = result;
         // find out if the result it's an even or odd number and declare who wins.
         if (result % 2 === 0) {
-            var winner = evens + " WON!";
+            var winner = evens + " (Player 2)" + " WON!";
             var winner = winner.toUpperCase();
             document.getElementById("theWinnerIs").innerHTML = winner;
 
         } else {
-            var winner = odds + " WON!";
+            var winner = odds + " (Player 1)" + " WON!";
             var winner = winner.toUpperCase();
             document.getElementById("theWinnerIs").innerHTML = winner;
 

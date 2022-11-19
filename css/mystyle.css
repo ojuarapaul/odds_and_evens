@@ -148,6 +148,21 @@ p {
   height: 0px;
 }
 
+.player2 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /*padding: 2rem;*/
+  padding-right: 0rem;
+  padding-left: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+  font-size: 2rem;
+  width: 280px;
+  height: 0px;
+}
+
 .img {
   width: 30%;
 }
