@@ -7,7 +7,7 @@ function evenOdds() {
         document.getElementById("oddsChoice").innerHTML = oddsChoice;
     } else {
         var odds = odds.toUpperCase();
-        document.getElementById("odds").innerHTML = odds;
+        document.getElementById("oddsName").innerHTML = odds;
     }
     var evensChoice = "Player 2";
     var evens = prompt("Type EVENS player's name (Player 2) or simply hit OK");
@@ -16,7 +16,7 @@ function evenOdds() {
         document.getElementById("evensChoice").innerHTML = evensChoice;
     } else {
         var evens = evens.toUpperCase();
-        document.getElementById("evens").innerHTML = evens;
+        document.getElementById("evensName").innerHTML = evens;
     }
 
     const next = runGame()

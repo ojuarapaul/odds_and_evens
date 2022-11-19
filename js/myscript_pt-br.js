@@ -7,7 +7,7 @@ function evenOdds() {
         document.getElementById("evensChoice").innerHTML = evensChoice;
     } else {
         var evens = evens.toUpperCase();
-        document.getElementById("evens").innerHTML = evens;
+        document.getElementById("evensName").innerHTML = evens;
     }
     var oddsChoice = "Jogador 2";
     var odds = prompt("Digite o nome do jogador 2 (que escolheu ÍMPARES) ou click OK");
@@ -16,7 +16,7 @@ function evenOdds() {
         document.getElementById("oddsChoice").innerHTML = oddsChoice;
     } else {
         var odds = odds.toUpperCase();
-        document.getElementById("odds").innerHTML = odds;
+        document.getElementById("oddsName").innerHTML = odds;
     }
 
     const next = runGame()
