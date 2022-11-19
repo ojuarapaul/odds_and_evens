@@ -50,6 +50,12 @@ h1 {
   color: var(--main-fontcolor);
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+
 h3 {
   display: inline;
   align-items: center;
