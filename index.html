@@ -69,7 +69,7 @@
             <script>
                 //check if touchevent is available (to work with iPhone touchscreen)
                 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
-                //bind touch event to the button with id = btn2 and call 'call()' function
+                //bind touch event to the button with id = btn2 and triggers 'call()' function
                 document.getElementById('btn2').addEventListener(touchEvent, call);
                 var callOne = true;
                 function one() {
