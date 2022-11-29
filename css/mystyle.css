@@ -5,7 +5,6 @@
 }
 
 body {
-  /*maybe add a background image later! */
   background-image: url("../images/bkg_desktop.png");
   opacity:1;
   background-size: cover;
